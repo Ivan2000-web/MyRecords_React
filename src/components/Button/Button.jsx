@@ -1,12 +1,15 @@
 import './Button.css'
+import { useState } from 'react'
 
 function Button() {
+  const [text, setText] = useState('Сохранить');
+  
   const clicked = () => {
-    console.log('Привет!');
+    setText('Закрыть');
   }
 
   return (
-    <button onClick={clicked} className='button accent'>Сохранить</button>
+    <button onClick={clicked} className='button accent'>{text}</button>
   )
 }
 
