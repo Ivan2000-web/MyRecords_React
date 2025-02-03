@@ -4,9 +4,10 @@
     font-family: inherit;
     cursor: pointer;
     transition: background 0.25s;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
-  }
+    color: white;
+}
 
 .button:hover {
     background-color: #222096;
@@ -15,6 +16,3 @@
 .accent {
     background-color: #312EB5;
 }
-
-
- 
